@@ -9,8 +9,14 @@
 }
 
 .addTask {
+    width: 100%;
+    height: 200px;
     margin-top: 15px;
     display: flex;
+    margin-bottom: 15px;
+    background-color: dodgerblue;
+    justify-content: center;
+    align-items: center;
 }
 
 input {
@@ -24,4 +30,26 @@ button {
 
 .list {
     margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list__ele{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list__btn {
+    width: 30px;
+    height: 30px;
+}
+
+.list__btn {
+    width: 30px;
+    height: 30px;
+}
+.list__btn2 {
+    width: 100%;
+    height: 30px;
 }
